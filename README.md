@@ -133,13 +133,13 @@ const byte sevenSeg_font[] = {
   Set a display digit  
   
   Parameters:  
-    - uint8_t digit - Display Index
-    - byte character - 7bit 0 paded character
+   - uint8_t digit - Display Index
+   - byte character - 7bit 0 paded character
    
   Usage:  
-    > sevenSeg_setDigit(**<display numeber>**, **sevenSeg_font[<characterIndex>]**)  
-    > e.g.: `sevenSeg_setDigit(0, sevenSeg_font[0]);`  
-    > Will display `0` on the first display
+   > sevenSeg_setDigit(**<display numeber>**, **sevenSeg_font[<characterIndex>]**)  
+   > e.g.: `sevenSeg_setDigit(0, sevenSeg_font[0]);`  
+   > Will display `0` on the first display
 
 - `void sevenSeg_setDecimalPoint(uint8_t digit, bool on)`  
   Toggle the decimal point on/off  
@@ -153,17 +153,17 @@ const byte sevenSeg_font[] = {
 
 #### Global Variables
 
-Those variables are not intended to be changed by your code.
+  Those variables are not intended to be changed by your code.
 
-- `byte displayData[2];`  
+ - `byte displayData[2];`  
   *buffer* of the data being pushed to each display.
   Size of the array must be the same as *displayCount*
 
  - `byte currentSegment;` (private)  
- keep state of the current segment being in the driven
+  keep state of the current segment being in the driven
 
  - `byte currentDigit;` (private)  
   keep state of the current segment being driven
 
-- `long previousMicros` (private)  
+ - `long previousMicros` (private)  
   keep state of interval between segments
