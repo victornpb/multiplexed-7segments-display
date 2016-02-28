@@ -1,8 +1,9 @@
-/*
+/**
  SevenSeg - 1.0
  
  created 20 August 2014
  by Victor N. Borges - www.vitim.us
+ Repo: https://github.com/victornpb/ledDisp
  
  This arduino sketch provides software to drive 7-segments display with multiplexing.
  Only turns a single segment is turned on at time, this allows the display to be turned with just the pins current,
