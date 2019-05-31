@@ -6,6 +6,8 @@ Arduino sketch that provides multiplexing for a single or multiple 7 segments di
  created 20 August 2014
  by Victor N. Borges - www.vitim.us
  
+ https://www.youtube.com/watch?v=rRVRDSzHUmM
+ 
  This arduino sketch provides software to drive 7-segments display with multiplexing.
  Only turns a single segment is turned on at time, this allows the display to be turned with just the pins current,
  and only requires a single resistor per display on the common pin.
