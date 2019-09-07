@@ -92,6 +92,9 @@ Change settings to match Common Cathode/Anode
   A character is represented by a single byte. You can define your own charactes, in a font-like array, which every position of the array contains a bitmap of a diferent character.
   
   The code is provided with a set of numbers and optional letters that can be toggled using a macro.
+  
+  You can also create your own set using this tool: https://github.com/victornpb/7segments
+  
 ```  
 #define ALPHA 0 //change to 1 to include leters 
 
